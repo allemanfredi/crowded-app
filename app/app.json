@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Crowded",
+    "slug": "crowded",
+    "platforms": ["ios", "android", "web"],
+    "version": "0.0.1",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#84D4FF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "bundleIdentifier": "com.allemanfredi.crowdedapp",
+      "buildNumber": "0.0.2",
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "This app uses the location to send the user position to a server, which will store only the last position in order to don't track the user",
+        "UIBackgroundModes": ["location"]
+      }
+    },
+    "android": {
+      "package": "com.allemanfredi.crowdedapp",
+      "versionCode": 1
+    }
+  }
+}

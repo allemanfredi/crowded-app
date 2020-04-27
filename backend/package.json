@@ -1,0 +1,40 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js test",
+    "start:dev": "nodemon server.js test",
+    "start:prod": "nodemon server.js prod",
+    "lint": "npx eslint ./ --fix",
+    "format": "prettier --config ./.prettierrc --write  \"./**/*.+(js|jsx|json|)\""
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "geolib": "^3.2.1",
+    "moment": "^2.24.0",
+    "mongodb": "^3.3.3",
+    "prettier": "^2.0.4",
+    "winston": "^3.2.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-mocha": "^5.3.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "nodemon": "^2.0.1",
+    "prettier": "^1.19.1"
+  },
+  "author": "Alessandro Manfredi (alle.manfredi@gmail.com)",
+  "license": "ISC"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --timeout 20000",
+    "lint": "npx eslint ./ --fix",
+    "format": "prettier --config ./.prettierrc --write  \"./**/*.+(js|jsx|json|)\""
+  },
+  "author": "Alessandro Manfredi (alle.manfredi@gmail.com)",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chai": "^4.2.0",
+    "dotenv": "^8.2.0",
+    "geohash": "^0.0.1",
+    "mocha": "^7.1.1",
+    "ngeohash": "^0.6.3",
+    "prettier": "^2.0.4",
+    "uuid": "^7.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^5.14.1",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-mocha": "^5.3.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0"
+  }
+}
