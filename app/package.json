@@ -16,7 +16,7 @@
     "@react-navigation/native": "^5.1.6",
     "@tradle/react-native-http": "^2.0.1",
     "assert": "^1.5.0",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "base-64": "^0.1.0",
     "browserify-sign": "^4.0.4",
     "browserify-zlib": "^0.1.4",
